@@ -5,7 +5,7 @@
  * @str: string to be printed
  * Return: Nothing
  */
- 
+
 void _eputs(char *str)
 {
 	int i = 0;
@@ -24,7 +24,7 @@ void _eputs(char *str)
  * @c: character to print
  * Return: 1
  */
- 
+
 int _eputchar(char c)
 {
 	static int i;
@@ -46,7 +46,7 @@ int _eputchar(char c)
  * @fd: filedescriptor to write to
  * Return: 1
  */
- 
+
 int _putfd(char c, int fd)
 {
 	static int i;
@@ -68,7 +68,7 @@ int _putfd(char c, int fd)
  * @fd: filedescriptor to write to
  * Return: number of chars put
  */
- 
+
 int _putsfd(char *str, int fd)
 {
 	int i = 0;
